@@ -6,7 +6,7 @@
 - [Características](#Características)
 - [Fluxo](#Fluxo)
 - [Exemplo de Solução](#Exemplo-de-Solução)
-- [Rodando o exemplo](#Rodando o exemplo)
+- [Rodando o exemplo](#Rodando-o-exemplo)
 
 ---
 
