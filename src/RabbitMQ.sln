@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbitmq.Case1.Producer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbitmq.Common", "Common\Rabbitmq.Common.csproj", "{43A25706-4360-4098-9309-523C2F6F6E74}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Case2", "Case2", "{44DCA67A-8400-42D5-B149-81D824A055D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbitmq.Case2.Producer", "Case2\Rabbitmq.Case2.Producer\Rabbitmq.Case2.Producer.csproj", "{CC8CD6FE-90C4-4621-8CCA-B7CA6A6E53A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbitmq.Case2.Consumer", "Case2\Rabbitmq.Case2.Consumer\Rabbitmq.Case2.Consumer.csproj", "{A7747D37-A859-4C6F-876B-B373E998AD3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,9 +38,19 @@ Global
 		{43A25706-4360-4098-9309-523C2F6F6E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43A25706-4360-4098-9309-523C2F6F6E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43A25706-4360-4098-9309-523C2F6F6E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8CD6FE-90C4-4621-8CCA-B7CA6A6E53A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8CD6FE-90C4-4621-8CCA-B7CA6A6E53A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8CD6FE-90C4-4621-8CCA-B7CA6A6E53A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8CD6FE-90C4-4621-8CCA-B7CA6A6E53A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7747D37-A859-4C6F-876B-B373E998AD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7747D37-A859-4C6F-876B-B373E998AD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7747D37-A859-4C6F-876B-B373E998AD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7747D37-A859-4C6F-876B-B373E998AD3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A52709CD-9D44-4606-BFEA-FF492061486E} = {59354F8F-6ACC-4AE2-9BB7-F73F3644570C}
 		{DF534102-B6B4-4DB3-88A9-6FEB932E1211} = {59354F8F-6ACC-4AE2-9BB7-F73F3644570C}
+		{CC8CD6FE-90C4-4621-8CCA-B7CA6A6E53A8} = {44DCA67A-8400-42D5-B149-81D824A055D5}
+		{A7747D37-A859-4C6F-876B-B373E998AD3C} = {44DCA67A-8400-42D5-B149-81D824A055D5}
 	EndGlobalSection
 EndGlobal
