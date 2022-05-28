@@ -8,3 +8,4 @@ Este projeto tem um foco específico em demonstrar como usar _RabbitMQ_ com _C#.
 
 - [One-Way Messaging](https://github.com/allansud/dotnet-rabbitmq/tree/main/src/Case1)
 - [Competing Consumers (Worker Queues)](https://github.com/allansud/dotnet-rabbitmq/tree/main/src/Case2)
+- [Routing](https://github.com/allansud/dotnet-rabbitmq/tree/main/src/Case3)

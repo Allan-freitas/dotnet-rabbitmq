@@ -353,7 +353,7 @@ docker-compose down --volumes
 ```bash
 
 # open new terminal and run the following command
-dotnet run -p ./Example2/Rabbit.Example2.Producer/
+dotnet run -p ./Example2/Rabbitmq.Case2.Producer/
 
 ```
 
@@ -362,7 +362,7 @@ dotnet run -p ./Example2/Rabbit.Example2.Producer/
 ```bash
 
 # open new terminal and run the following command
-dotnet run -p ./Example2/Rabbit.Example2.Consumer/
+dotnet run -p ./Example2/Rabbitmq.Case2.Consumer/
 
 ```
 
@@ -371,7 +371,7 @@ dotnet run -p ./Example2/Rabbit.Example2.Consumer/
 ```bash
 
 # open new terminal and run the following command
-dotnet run -p ./Example2/Rabbit.Example2.Consumer/
+dotnet run -p ./Example2/Rabbitmq.Case2.Consumer/
 
 ```
 
@@ -380,6 +380,6 @@ dotnet run -p ./Example2/Rabbit.Example2.Consumer/
 ```bash
 
 # open new terminal and run the following command
-dotnet run -p ./Example2/Rabbit.Example2.Consumer/
+dotnet run -p ./Example2/Rabbitmq.Case2.Consumer/
 
 ```
